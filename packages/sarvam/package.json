@@ -13,7 +13,8 @@
   "files": [
     "dist/**/*",
     "internal/dist/**/*",
-    "CHANGELOG.md"
+    "CHANGELOG.md",
+    "LICENSE"
   ],
   "scripts": {
     "build": "tsup",
