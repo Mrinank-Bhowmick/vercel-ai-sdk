@@ -1,7 +1,11 @@
 {
-  "name": "@ai-sdk/sarvam",
+  "name": "sarvam-ai-provider",
   "version": "0.0.1",
-  "license": "Apache-2.0",
+  "license": "MIT",
+  "author": {
+    "name": "Mrinank Bhowmick",
+    "url": "https://github.com/Mrinank-Bhowmick/"
+  },
   "sideEffects": false,
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
