@@ -1,6 +1,6 @@
 {
   "name": "sarvam-ai-provider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": {
     "name": "Mrinank Bhowmick",
@@ -26,7 +26,9 @@
     "test": "pnpm test:node && pnpm test:edge",
     "test:edge": "vitest --config vitest.edge.config.js --run",
     "test:node": "vitest --config vitest.node.config.js --run",
-    "test:node:watch": "vitest --config vitest.node.config.js --watch"
+    "test:node:watch": "vitest --config vitest.node.config.js --watch",
+    "clean-changesets": "rm .changeset/*.md",
+    "version-and-clean": "pnpm changeset version && pnpm run clean-changesets"
   },
   "exports": {
     "./package.json": "./package.json",
@@ -56,13 +58,13 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://sdk.vercel.ai/docs",
+  "homepage": "https://sdk.vercel.ai/providers/community-providers/sarvam",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vercel/ai.git"
+    "url": "git+https://github.com/Mrinank-Bhowmick/vercel-ai-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/vercel/ai/issues"
+    "url": "https://github.com/Mrinank-Bhowmick/vercel-ai-sdk/issues"
   },
   "keywords": [
     "sarvam",
